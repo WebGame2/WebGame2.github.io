@@ -1,0 +1,156 @@
+@import url('http://fonts.googleapis.com/css?family=Germania One');
+/*Fancy Fonts for title*/
+
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: #f4e8d3;
+}
+
+/* Navbar css*/
+
+header {
+    background:  #f4e8d3 /*#91796c*/;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navbar-logo{
+    text-align: center;
+    position: relative;
+    font-family: 'Germania One', serif;
+   /* width: 5%;
+    height: 5%;
+    padding-left: 43%;*/
+}
+
+/*.navbar {
+    float: left;
+}*/
+
+ /*Dropdown menu*/
+
+ .dropdown {
+  overflow: hidden;
+  align-self: auto ;
+  width: 3%;
+  /*padding-left: 10%;
+    float: left;
+  */
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  color: black;
+  background-color: #f4e8d3 /*#91796c*/;
+  padding: 14px 16px; 
+  margin: 0; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Game Canvas*/
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 90%;*/
+}
+
+#gameCanvas {
+    border: 2px solid #d8c3a5;
+    padding: auto;
+    /*height: 95%;
+    width: 80%;*/
+}
+
+/*LeaderBoard css*/
+
+.leaderboard-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+ th {
+    background-color: rgb(72, 72, 182);
+    color: #fff;   
+ }
+
+ .firstplace {
+    background-color: goldenrod;
+ }
+
+ .secondplace {
+    background-color: silver;
+ }
+
+ .thirdplace {
+    background-color: #cd7f32;
+ }
+
+ /*AboutUsPage css*/
+
+ .content-container {
+  padding: 2%;
+}
+
+ .about-section {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+ }
+
+ .about-content {
+    margin-top: 20px;
+    width: 60vw;
+ }
+
+ .about-image {
+    max-width: 20%;
+    height: 20%;
+    margin-bottom: 5%;
+ }
+
+
+
